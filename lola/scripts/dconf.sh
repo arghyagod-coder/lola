@@ -1,1 +1,1 @@
-sudo apt install dconf-editor
+sudo apt-get install -y dconf-editor

@@ -1,12 +1,7 @@
 gimp
-whatsapp
 da-vinci-resolve
 wine
-libreoffice-write
-libreoffice-base
-libreoffice-impress
-libreoffice-calc
-libreoffice-draw
+libreoffice-full
 krita
 brave-browser
 brave-beta
@@ -16,14 +11,12 @@ firefox
 chrome
 lutris
 g-drive
-onedrive
 blender
 python3
 miniconda
 anaconda
 pip3
 java-development-kit-11
-java-development-kit-14
 java-development-kit-14-oracle
 vscode
 atom-editor
@@ -33,7 +26,6 @@ g++
 clang
 gcc 
 pycharm-community
-pycharm-pro
 intellij-community
 thunderbird
 evolution
@@ -83,7 +75,7 @@ cheese
 spotify
 discord
 tuxpaint
-steallarium
+stellarium
 pinta
 mypaint
 shotwell

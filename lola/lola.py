@@ -12,7 +12,7 @@ I can help you install apps through terminal, and you need to know almost nothin
 
 @main.command('install', help= ('Install an app'))
 @click.argument('files', nargs=1)
-def git_add_file(files):
+def install(files):
     print(files)
     
 

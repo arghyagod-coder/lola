@@ -1,2 +1,2 @@
-sudo apt update -y
-sudo apt install -y cheese
+sudo apt-get update -y
+sudo apt-get install -y cheese
