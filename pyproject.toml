@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "lola"
+version = "0.1.4"
+description = ""
+authors = ["Arghya Sarkar <arghyasarkar.joker@gmail.com>"]
+license="MIT"
+readme="README.md"
+homepage= "https://github.com/arghyagod-coder/lola"
+repository = "https://github.com/arghyagod-coder/lola"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
