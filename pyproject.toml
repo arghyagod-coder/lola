@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "lola"
+name = "lolacli"
 version = "0.1.4"
-description = ""
+description = "A simple cli tool to help beginners install apps in Linux"
 authors = ["Arghya Sarkar <arghyasarkar.joker@gmail.com>"]
 license="MIT"
 readme="README.md"
@@ -27,7 +27,7 @@ click = "^8.0.1"
 pytest = "^5.2"
 
 [tool.poetry.scripts]
-lola = "lola.lola:main"
+lola = "lolacli.lolacli:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
