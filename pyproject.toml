@@ -7,13 +7,27 @@ license="MIT"
 readme="README.md"
 homepage= "https://github.com/arghyagod-coder/lola"
 repository = "https://github.com/arghyagod-coder/lola"
+keywords = ["lola","lola-installer","easy-installer","lola-linux", "lola-app","lola-cli"]
+
+classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Operating System :: Linux 64 (Ubuntu, Debian, Mint, Pop!_OS)",
+    ]
 
 
 [tool.poetry.dependencies]
 python = "^3.8"
+click = "^8.0.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+
+[tool.poetry.scripts]
+lola = "lola.lola:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
