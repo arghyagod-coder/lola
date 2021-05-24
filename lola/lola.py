@@ -2,10 +2,88 @@ import click
 import subprocess as sb
 from runfile import rn as run
 
-apploc = 'https://raw.githubusercontent.com/arghyagod-coder/lola/blob/master/lola/apps.txt'
-apps=[]
-with open(apploc) as f:
-    apps = f.readlines()
+apps='''gimp
+da-vinci-resolve
+wine
+libreoffice-full
+krita
+brave-browser
+brave-beta
+brave-nightly
+edge-beta
+firefox
+chrome
+lutris
+g-drive
+blender
+python3
+miniconda
+anaconda
+pip3
+java-development-kit-11
+java-development-kit-14-oracle
+vscode
+atom-editor
+thonny
+sublimetext
+g++
+clang
+gcc 
+pycharm-community
+intellij-community
+thunderbird
+evolution
+kazam
+golang
+r-lang
+rstudio
+virtualbox
+scribus
+plank-dock
+calibre
+chromium
+zoom
+dropbox
+vlc
+skype
+gparted
+minecraft
+audacity
+audacious
+htop
+dos-box
+desmume
+vim
+kate
+gedit
+jedit
+kate
+emacs
+telegram
+signal
+g-earth
+steam
+codeblocks
+netbeans
+lazarus-pascal
+geany
+dconf
+spyder
+terminator
+kdenlive
+obs
+simple-screen-recorder
+geogebra
+etcher
+cheese
+spotify
+discord
+tuxpaint
+stellarium
+pinta
+mypaint
+shotwell
+nodejs'''
 	
 
 @click.group()
@@ -18,8 +96,7 @@ I can help you install apps through terminal, and you need to know almost nothin
 
 @main.command('check-apps')
 def checkapps():
-	for app in apps:
-		print(app)
+	print(apps)
 
 @main.command('install', help= ('Install an app'))
 @click.argument('filesl', nargs=-1)
