@@ -90,7 +90,7 @@ nodejs'''
 	
 
 @click.group()
-@click.version_option('0.1.7', prog_name= 'Lola')
+@click.version_option('0.1.9', prog_name= 'Lola')
 def main():
 	'''I am Lola! Your assistant who can help you setup your Linux in an easy way! You can know more about me in https://github.com/arghyagod-coder/lola.
 
@@ -105,4 +105,4 @@ def checkapps():
 @click.argument('filesl', nargs=-1)
 def install(filesl): 
 	for files in filesl:
-		run(f'cd ~/Downloads; wget https://raw.githubusercontent.com/arghyagod-coder/lola/blob/master/lolacli/scripts/{files}.sh; bash {files}.sh; rm {files}.sh')
+		run(f'cd ~/Downloads; wget https://raw.githubusercontent.com/arghyagod-coder/lola/master/lolacli/scripts/{files}.sh; bash {files}.sh; rm {files}.sh')
