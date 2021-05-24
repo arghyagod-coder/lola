@@ -2,6 +2,12 @@ import click
 import subprocess as sb
 from runfile import rn as run
 
+apploc = 'https://raw.githubusercontent.com/arghyagod-coder/lola/blob/master/lola/apps.txt'
+apps=[]
+with open(apploc) as f:
+    apps = f.readlines()
+	
+
 @click.group()
 @click.version_option('0.1.4', prog_name= 'Lola')
 def main():
@@ -10,13 +16,13 @@ def main():
 I can help you install apps through terminal, and you need to know almost nothing about the terminal to do so! Just simple prompts will be enough'''
 	pass
 
+@main.command('check-apps')
+def checkapps():
+	for app in apps:
+		print(app)
+
 @main.command('install', help= ('Install an app'))
-@click.argument('files', nargs=1)
-def install(files):
-    print(files)
-    
-
-	
-if __name__=='__main__':
-	main()
-
+@click.argument('filesl', nargs=-1)
+def install(filesl): 
+	for files in filesl:
+		run(f'cd ~/Downloads; wget https://raw.githubusercontent.com/arghyagod-coder/lola/master/lola/scripts/{files}.sh; bash {files}.sh; rm {files}.sh')
