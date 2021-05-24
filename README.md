@@ -1,7 +1,7 @@
 ## Lola
 `lola` : A simple CLI for installing packages on Linux easily 
 
-[![GitHub license](https://img.shields.io/github/license/arghyagod-coder/lola)
+![GitHub license](https://img.shields.io/github/license/arghyagod-coder/lola)
 
 #### Dependencies
 + click
@@ -11,6 +11,12 @@
 pip install lolacli
 ```
 #### Screenshots
+
+![](assets/help.png)
+
+![](assets/check-apps.png)
+
+![](assets/audacity-dl.png)
 
 
 
