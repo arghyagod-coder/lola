@@ -90,7 +90,7 @@ nodejs'''
 	
 
 @click.group()
-@click.version_option('0.1.9', prog_name= 'Lola')
+@click.version_option('0.2.1', prog_name= 'Lola')
 def main():
 	'''I am Lola! Your assistant who can help you setup your Linux in an easy way! You can know more about me in https://github.com/arghyagod-coder/lola.
 

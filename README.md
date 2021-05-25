@@ -1,7 +1,13 @@
 # Lola
 ### `lola` : A simple CLI for installing packages on Linux easily 
 
-![GitHub license](https://img.shields.io/github/license/arghyagod-coder/lola)
+**lola is made for linux users who want to download software fast and easy!**
+
+Now many will ask, Why use lola when we have those software managers?
+
+Well, lola is a Command Line Interface and is used inside the terminal. And as we know, terminal downloads are way more faster than the software managers. While many softwares can be downloaded with a single `sudo apt install`, most common ones need some more commands.
+
+So `lola` is here to make your life way more easier while installing software! This project targets both advanced and beginner users, because who doesn't like speedy and quicky stuff?
 
 #### Dependencies
 + `click`
@@ -50,7 +56,7 @@ pip3 install lolacli
 
 ## Usage
 
-**lola is made for linux newbies who can find it difficult to download software**
+**lola is made for linux users who want to download software fast and easy!**
 
 Now many will tell, Why use lola when we have those software managers?
 
@@ -218,12 +224,17 @@ Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
 - Fixed Installation Script
 - Fixed the 'File not Found' error
 
+#### Developers
+- 
+
 ## License
 
-[LICENSE](https://github.com/arghyagod-coder/lola/master/LICENSE)
+License © 2021-Present Arghya Sarkar
+
+This repository is licensed under the MIT license. See [LICENSE](https://github.com/arghyagod-coder/lola/master/LICENSE) for details.
 
 ## Special Notes
 
-- Contribution is appreciated!
+- Contribution is appreciated! Visit the contribution guide in 
 - If you don't find an app in the supported app list, file an issue in [the issue page](https://github.com/arghyagod-coder/lola/issues). Issues aren't ignored by the developers
 - Thanks for seeing my project!
