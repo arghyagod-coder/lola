@@ -215,7 +215,7 @@ Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
 - Fixed the 'File not Found' error
 
 #### Developers
-- 
+- Arghya Sarkar
 
 ## License
 
