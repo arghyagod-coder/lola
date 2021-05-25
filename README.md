@@ -4,11 +4,32 @@
 ![GitHub license](https://img.shields.io/github/license/arghyagod-coder/lola)
 
 #### Dependencies
-+ click
++ `click`
+
+### Built with
++ `Python 3.8.5`
+
 
 ## Installation
+
+#### Method 1 (Recommended):
+
+If you dont have python3 and pip installed on your system, or are not that much of PYTHON CODER, use this method
+
+- In your terminal-
+
 ```bash
-pip install lolacli
+curl https://raw.githubusercontent.com/arghyagod-coder/lola/master/lolacli/install.sh | sudo bash -
+```
+
+- Now `lola` is ready to work!
+
+#### Method 2
+
+If you have python and pip installed in your computer, execute the following
+
+```bash
+pip3 install lolacli
 ```
 
 ## Supported Platforms:
@@ -40,11 +61,24 @@ So `lola` is here to make your life way more easier while installing software! T
 ### What can lola do?
 
 ```bash
-lola --help
+>lola --help
+
+
+  I am Lola! Your assistant who can help you setup your Linux in an easy way!
+  You can know more about me in https://github.com/arghyagod-coder/lola.
+
+  I can help you install apps through terminal, and you need to know almost
+  nothing about the terminal to do so! Just simple prompts will be enough
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  check-apps  Check the list of supported apps!
+  install     Install an app
+
 ```
 
-This shows what lola can do. 
-She can install apps and display a list of supported apps in current version
-
-
+Check all supported 
 

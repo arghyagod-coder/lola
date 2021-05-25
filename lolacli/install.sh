@@ -7,3 +7,5 @@ sudo apt install python3-pip
 sudo apt install wget
 sudo apt install curl
 sudo apt install gdebi
+
+pip3 install lolacli
