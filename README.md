@@ -54,16 +54,6 @@ pip3 install lolacli
 
 ![](assets/audacity-dl.png)
 
-## Usage
-
-**lola is made for linux users who want to download software fast and easy!**
-
-Now many will tell, Why use lola when we have those software managers?
-
-Well, lola is a Command Line Interface and is used inside the terminal. And as we know, terminal downloads are way more faster than the software managers. While many softwares can be downloaded with a single `sudo apt install`, most common ones need some more commands.
-
-So `lola` is here to make your life way more easier while installing software! This project targets both advanced and beginner users, because who doesn't like speedy and quicky stuff?
-
 ### Guide
 
 Enter `sudo` mode first in the kernel
