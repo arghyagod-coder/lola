@@ -1,2 +1,2 @@
-apt-get -y update
-apt-get install -y chromium-browser
+sudo apt-get -y update
+sudo apt-get install -y chromium-browser

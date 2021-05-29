@@ -27,7 +27,7 @@ If you dont have python3 and pip installed on your system, or are not that much 
 - In your terminal-
 
 ```bash
-curl https://raw.githubusercontent.com/arghyagod-coder/lola/master/lolacli/install.sh | sudo bash -
+cd ~/Downloads;wget https://raw.githubusercontent.com/arghyagod-coder/lola/master/lolacli/install.sh; sudo bash install.sh
 ```
 
 - Now `lola` is ready to work!
@@ -57,13 +57,6 @@ pip3 install lolacli
 ![](assets/audacity-dl.png)
 
 ### Guide
-
-Enter `sudo` mode first in the kernel
-
-```bash
-sudo su
-```
-It will ask for your system password, enter your password and you will enter sudo mode
 
 - The help command
 

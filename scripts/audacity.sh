@@ -1,2 +1,2 @@
-apt update;
-apt install -y audacity;
+sudo apt update;
+sudo apt install -y audacity;

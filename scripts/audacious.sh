@@ -1,3 +1,3 @@
-add-apt-repository ppa:nilarimogard/webupd8;
-apt update;
-apt install -y audacious audacious-plugins;
+sudo add-apt-repository ppa:nilarimogard/webupd8;
+sudo apt update;
+sudo apt install -y audacious audacious-plugins;
