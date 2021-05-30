@@ -10,8 +10,9 @@ def run(command):
 
 
 apps = '''
+crystal -------------- Crystal language support
+nim ------------------ Nim Language Support
 gimp ----------------- Professional Photo Edition Software
-da-vinci-resolve------ Professional Video Edition Software
 wine ----------------- Run Windows apps/games on Linux with WINE
 libreoffice-full ----- Complete Office Suite
 krita ---------------- Bring your artistic skills to life with Krita
@@ -92,9 +93,11 @@ pinta ---------------- Draw beautiful images with Pinta
 mypaint -------------- Draw beautiful art with MyPaint
 shotwell ------------- Shotwell light casual Image Editor
 nodejs --------------- NodeJS for Linux
-firefox-dev ---------- Moz://a Firefox Developer Edition
 fish-sh -------------- Fish Shell
 zsh-sh --------------- Zsh Shell
+v-lang --------------- V Language and Compiler
+sass ----------------- Language Support SASS through npm
+powershell ----------- POWERSHELL for Linux
 '''
 
 
