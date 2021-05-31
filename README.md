@@ -12,10 +12,10 @@ Well, lola is a Command Line Interface and is used inside the terminal. And as w
 So `lola` is here to make your life way more easier while installing software! This project targets both advanced and beginner users, because who doesn't like speedy and quicky stuff?
 
 #### Dependencies
-+ `click` [](<img src="https://click.palletsprojects.com/en/8.0.x/_images/click-logo.png" alt="drawing" width="70"/>)
++ `click` <img src="https://click.palletsprojects.com/en/8.0.x/_images/click-logo.png" alt="drawing" width="70"/>
 
 ### Built with
-+ `Python 3.8.5` [](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/python.svg)
++ `Python 3.8.5` ![python](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/python.svg)
 
 
 ## Installation
@@ -42,7 +42,7 @@ pip3 install lolacli
 
 ## Supported Platforms:
 
-+ Operating System = Linux64 [](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/tools/bash.svg)
++ Operating System = Linux64 ![lin](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/tools/bash.svg)
     - Ubuntu 20.04 and Derivatives
     - Mint 19.3
     - Mint 20.1
@@ -192,13 +192,13 @@ Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
 
 ## Developer Tools
 
-- [Python 3.8.5](https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tar.xz)[](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/python.svg)
+- [Python 3.8.5](https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tar.xz) ![python](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/python.svg)
 
 - [Sublime Text 3](https://www.sublimetext.com/3)
 
-- [Visual Studio Code](https://code.visualstudio.com)[](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/tools/visualstudio_code.svg)
+- [Visual Studio Code](https://code.visualstudio.com) ![vscode](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/tools/visualstudio_code.svg)
 
-- [Git](https://git-scm.com/) [](https://raw.githubusercontent.com/klaasnicolaas/ColoredBadges/new-badges/svg/dev/tools/git.svg)
+- [Git](https://git-scm.com/) ![git](https://raw.githubusercontent.com/klaasnicolaas/ColoredBadges/new-badges/svg/dev/tools/git.svg)
 
 - [Python Poetry](https://python-poetry.org/) for package management and publishing
 
