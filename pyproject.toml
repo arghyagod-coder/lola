@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "lolacli"
-version = "0.2.2"
+version = "0.2.3"
 description = "A simple cli tool to help beginners install apps in Linux"
 authors = ["Arghya Sarkar <arghyasarkar.joker@gmail.com>"]
 license="MIT"

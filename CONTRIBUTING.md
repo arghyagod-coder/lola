@@ -1,6 +1,6 @@
 ## Introduction
 
-Follow the contribution guide in order to contribute to `lola 0.2.0`.
+Follow the contribution guide in order to contribute to `lola 0.2.3`.
 
 ## Project Structure
 
@@ -133,7 +133,7 @@ Follow the contribution guide in order to contribute to `lola 0.2.0`.
 
 - Make sure you have `git` installed in your device
 - Fork the repository.
-- Clone it using Git (`git clone https://github.com/<YOUR USERNAME>lola.git`).
+- Clone it using Git (`git clone https://github.com/<YOUR USERNAME>/lola.git`).
 - Create a new git branch (`git checkout -b "BRANCH NAME"`).
 - Install the dependencies mentioned in the README.md file.
 - Make changes.
