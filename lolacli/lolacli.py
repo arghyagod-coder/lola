@@ -10,94 +10,92 @@ def run(command):
 
 
 apps = '''
-crystal -------------- Crystal language support
-nim ------------------ Nim Language Support
-gimp ----------------- Professional Photo Edition Software
-wine ----------------- Run Windows apps/games on Linux with WINE
-libreoffice-full ----- Complete Office Suite
-krita ---------------- Bring your artistic skills to life with Krita
+anaconda ------------- Anaconda- Powerful Tool for DS, DL and ML learners
+atom-editor ---------- Atom Code Editor 
+audacious ------------ Audacious Music Player
+audacity ------------- Professional Audio Edition Software
+blender -------------- Open Source 3D Creation Suite
 brave-browser -------- Brave Browser- Fast, Light and Secure
 brave-beta ----------- Brave Browser BETA- Regular updates and Bug Fixes
 brave-nightly -------- Brave Nightly- Nightly Updates and Bug Fixes
-edge-beta ------------ MS Edge for Linux- Regular Updates 
-firefox -------------- Firefox Web Browser- Security at top
+calibre -------------- Free E-Book Suite
+cheese --------------- Camera App for Linux
 chrome --------------- Google Chrome Browser, the No.1 Browser in market
-lutris --------------- Open Source Gaming Platform for Linux
-g-drive -------------- Google Drive Client for Linux
-blender -------------- Open Source 3D Creation Suite
-python3 -------------- Python 3.8 for Linux
-miniconda ------------ Miniconda- Light and Powerful
-anaconda ------------- Anaconda- Powerful Tool for DS, DL and ML learners
-pip3 ----------------- Pip3 package manager for Linux
-java-development-kit-11 --- JDK 11 for Linux
-java-development-kit-14-oracle --- JDK 14 Oracle Edition for Linux
-vscode --------------- Visual Studio Code Text Editor
-atom-editor ---------- Atom Code Editor 
-thonny --------------- Thonny Python Beginner's IDE
-sublimetext3 --------- Sublime Text 3- A powerful yet lightweight Editor
-sublimetext4 --------- Sublime Text 4
-g++ ------------------ G++ Compiler for C/CPP
+chromium ------------- Chromium Browser- A Light Browser like Chrome by GOOGLE
 clang ---------------- CLang Compiler for C
-gcc ------------------ GCC Compiler for C
-pycharm-community ---- PyCharm Community Edition
-intellij-community --- IntelliJ IDEA Community Edition
-thunderbird ---------- Thunderbird Mail Client from Moz://a
+codeblocks ----------- Code::Blocks editor- Fast and Powerful
+crystal -------------- Crystal language support
+dconf ---------------- Manage your config files with DConf editor for Linux
+desmume -------------- DesMume Emulator for NDS and GB Games
+discord -------------- Discord Client in Linux
+dos-box -------------- DOS-BOX Emulator
+dropbox -------------- Cloud Storage Client
+edge-beta ------------ MS Edge for Linux- Regular Updates 
+emacs ---------------- Featureful Text Editor
+etcher --------------- Professional ISO Disk Image Writer
 evolution ------------ A lightweight yet reliable Mail Client
-kazam ---------------- Light Screen Recorder for Linux
+firefox -------------- Firefox Web Browser- Security at top
+fish-sh -------------- Fish Shell
+g-drive -------------- Google Drive Client for Linux
+g-earth -------------- Google Earth Feature for Linux
+g++ ------------------ G++ Compiler for C/CPP
+gcc ------------------ GCC Compiler for C
+geany ---------------- Lightweight Text Editor
+gedit ---------------- Casual Text Editor
+geogebra ------------- Applications for dealing with mathematical operations and visualizations
+gimp ----------------- Professional Photo Edition Software
 golang --------------- Go Language for Linux
+gparted -------------- Manage your disks and partitions with GParted
+htop ----------------- Monitor your resources with htop
+intellij-community --- IntelliJ IDEA Community Edition
+java-development-kit-11 --- JDK 11 for Linux
+jedit----------------- Casual Text Editor
+kate ----------------- Casual Text Editor
+kazam ---------------- Light Screen Recorder for Linux
+kdenlive ------------- Casual Video Edition Software
+krita ---------------- Bring your artistic skills to life with Krita
+lazarus-pascal ------- Pascal IDE 
+libreoffice-full ----- Complete Office Suite
+lutris --------------- Open Source Gaming Platform for Linux
+minecraft ------------ One of the world's most popular games, officially on Linux
+miniconda ------------ Miniconda- Light and Powerful
+mypaint -------------- Draw beautiful art with MyPaint
+nim ------------------ Nim Language Support
+nodejs --------------- NodeJS for Linux
+obs ------------------ Professional Screen Recorder
+pinta ---------------- Draw beautiful images with Pinta
+pip3 ----------------- Pip3 package manager for Linux
+plank-dock ----------- Plank Dock for Desktop Linux
+powershell ----------- POWERSHELL for Linux
+pycharm-community ---- PyCharm Community Edition
+python3 -------------- Python 3.8 for Linux
 r-lang --------------- R Language for linux
 rstudio -------------- Best IDE for R Programming
-virtualbox ----------- Make and Manage Virtual Machines with Vbox
-scribus -------------- Professional DTP Software
-plank-dock ----------- Plank Dock for Desktop Linux
-calibre -------------- Free E-Book Suite
-chromium ------------- Chromium Browser- A Light Browser like Chrome by GOOGLE
-zoom ----------------- Zoom Client for Conferences and Meetings
-dropbox -------------- Cloud Storage Client
-vlc ------------------ No. 1 Media Player
-skype ---------------- Skype Client for Business Chats, Meetings etc
-gparted -------------- Manage your disks and partitions with GParted
-minecraft ------------ One of the world's most popular games, officially on Linux
-audacity ------------- Professional Audio Edition Software
-audacious ------------ Audacious Music Player
-htop ----------------- Monitor your resources with htop
-dos-box -------------- DOS-BOX Emulator
-desmume -------------- DesMume Emulator for NDS and GB Games
-vim ------------------ Professional Terminal Text Editor
-kate ----------------- Casual Text Editor
-gedit ---------------- Casual Text Editor
-jedit----------------- Casual Text Editor
-emacs ---------------- Featureful Text Editor
-telegram ------------- Telegram Client for Linux
-signal --------------- Signal client for Linux
-g-earth -------------- Google Earth Feature for Linux
-steam ---------------- Steam Proton Client for Linux
-codeblocks ----------- Code::Blocks editor- Fast and Powerful
-netbeans ------------- Netbeans Professional editor for Java, Python etc
-lazarus-pascal ------- Pascal IDE 
-geany ---------------- Lightweight Text Editor
-dconf ---------------- Manage your config files with DConf editor for Linux
-spyder --------------- An IDE for Scientists
-terminator ----------- Terminal Manager Terminator
-kdenlive ------------- Casual Video Edition Software
-obs ------------------ Professional Screen Recorder
-simple-screen-recorder -- Professional Screen Recorder
-geogebra ------------- Applications for dealing with mathematical operations and visualizations
-etcher --------------- Professional ISO Disk Image Writer
-cheese --------------- Camera App for Linux
-spotify -------------- Spotify Client
-discord -------------- Discord Client in Linux
-tuxpaint ------------- TUX Paint client
-stellarium ----------- Visualization Applications for Scientists
-pinta ---------------- Draw beautiful images with Pinta
-mypaint -------------- Draw beautiful art with MyPaint
-shotwell ------------- Shotwell light casual Image Editor
-nodejs --------------- NodeJS for Linux
-fish-sh -------------- Fish Shell
-zsh-sh --------------- Zsh Shell
-v-lang --------------- V Language and Compiler
 sass ----------------- Language Support SASS through npm
-powershell ----------- POWERSHELL for Linux
+scribus -------------- Professional DTP Software
+shotwell ------------- Shotwell light casual Image Editor
+signal --------------- Signal client for Linux
+simple-screen-recorder -- Professional Screen Recorder
+skype ---------------- Skype Client for Business Chats, Meetings etc
+spotify -------------- Spotify Client
+spyder --------------- An IDE for Scientists
+steam ---------------- Steam Proton Client for Linux
+stellarium ----------- Visualization Applications for Scientists
+sublimetext3 --------- Sublime Text 3- A powerful yet lightweight Editor
+sublimetext4 --------- Sublime Text 4
+telegram ------------- Telegram Client for Linux
+terminator ----------- Terminal Manager Terminator
+thonny --------------- Thonny Python Beginner's IDE
+thunderbird ---------- Thunderbird Mail Client from Moz://a
+tuxpaint ------------- TUX Paint client
+v-lang --------------- V Language and Compiler
+vim ------------------ Professional Terminal Text Editor
+virtualbox ----------- Make and Manage Virtual Machines with Vbox
+vlc ------------------ No. 1 Media Player
+vscode --------------- Visual Studio Code Text Editor
+wine ----------------- Run Windows apps/games on Linux with WINE
+zoom ----------------- Zoom Client for Conferences and Meetings
+zsh-sh --------------- Zsh Shell
 '''
 
 
