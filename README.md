@@ -48,10 +48,11 @@ pip3 install lolacli
 + Operating System = Linux64 
 
 ![lin](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/tools/bash.svg)
-    - Ubuntu 20.04 and Derivatives
-    - Mint 19.3
-    - Mint 20.1
-    - Debian 10 
+    
+  - Ubuntu 20.04 and Derivatives
+  - Mint 19.3
+  - Mint 20.1
+  - Debian 10 
 
 ## Screenshots
 
