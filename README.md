@@ -12,7 +12,7 @@ Well, lola is a Command Line Interface and is used inside the terminal. And as w
 So `lola` is here to make your life way more easier while installing software! This project targets both advanced and beginner users, because who doesn't like speedy and quicky stuff?
 
 #### Dependencies
-+ `click` <img src="https://click.palletsprojects.com/en/8.0.x/_images/click-logo.png" alt="drawing" width="70"/>
++ `click` ![](https://click.palletsprojects.com/en/8.0.x/_images/click-logo.png)
 
 ### Built with
 + `Python 3.8.5` ![python](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/python.svg)
