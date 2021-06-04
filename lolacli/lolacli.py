@@ -3,6 +3,7 @@ import click
 import requests
 import os
 import subprocess as sb
+import time
 
 
 def run(command):
@@ -143,6 +144,74 @@ def install(files):
         except Exception as e:
             print(e)
 
+@main.command('info', help='Know lola well!')
+def info():
+    click.echo("""
+db       .d88b.  db       .d8b.  
+88      .8P  Y8. 88      d8' `8b 
+88      88    88 88      88ooo88 
+88      88    88 88      88~~~88 
+88booo. `8b  d8' 88booo. 88   88 
+Y88888P  `Y88P'  Y88888P YP   YP 
+                                 
+I am lola! I am here to help you install software in your system fast and easily! 
+
+Why use lola when we have those software managers?
+
+Well, lola is a Command Line Interface and is used inside the terminal. And as we know, terminal downloads are way more faster than the software managers. While many softwares can be downloaded with a single sudo apt install, most common ones need some more commands.
+
+So I am here to make your life way more easier while installing software! This project targets both advanced and beginner users, because who doesn't like speedy and quicky stuff?
+
+""")
+
+@main.command('hack', help="A fun option to fake-hack a pc by giving it's username")
+@click.argument('pc', nargs=1)
+def hack(pc):
+    i=0
+    with click.progressbar(range(0,50)) as bar:
+        for user in bar:
+            i+=1
+            time.sleep(0.23)
+            click.echo(click.style(i, bg='black', fg='green'))
+    click.echo(click.style(f'Entering into {pc} system...', bg='black', fg='green'))
+    time.sleep(2)
+    click.echo(click.style(f'Obtaining IP Address...', bg='black', fg='green'))
+    time.sleep(2)
+    click.echo(click.style('Obtained Data Successfully! Selling them to dark web!', bg='black', fg='green'))
+    time.sleep(4)
+    os.system('clear')
+    click.echo(click.style('--SOLD DATA--', bg='black', fg='green'))
+    click.echo(click.style('PHASE 1 COMPLETED!', bg='black', fg='green'))
+    time.sleep(4)
+    os.system('clear')
+    click.echo(click.style('Now infecting the target with Viruses', bg='black', fg='green'))
+    click.echo(click.style('List of Viruses: \n\n memz\nwannacry\nbutterfly-ware\n', bg='black', fg='green'))
+    time.sleep(3)
+    with click.progressbar(range(0,50)) as bar:
+        for user in bar:
+            i+=1
+            time.sleep(0.10)
+            click.echo(click.style('Installing VIRUSES.... \n Running them', bg='black', fg='green'))
+            click.echo(click.style(i, bg='black', fg='green'))
+    time.sleep(2)
+    click.echo(click.style('Computer Infected Successfully!', bg='black', fg='green'))
+    time.sleep(2)
+    click.echo(click.style('Processing Data', bg='black', fg='green'))
+    time.sleep(1)
+    run('clear')
+    click.echo(click.style(f'{pc} was hacked successfully!', bg='black', fg='green'))
+
+@main.command('update', help='Update lolacli to the latest version')
+def update():
+    os.system('pip3 uninstall -y lolacli; pip3 install lolacli')
+
+@main.command('search', help='Check Availability of an app in lola')
+@click.argument('app', nargs=1)
+def search(app):
+    pass
+    
+
 
 if __name__ == "__main__":
     main()
+    
