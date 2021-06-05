@@ -196,6 +196,21 @@ Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
 
 ```
 
+- Search Option
+  - `lola search <appname>` checks the availability of an app in lola.
+  
+```
+> lola search vlc
+
+App Available!
+```
+
+- `lola update` updates lola to the latest version
+  
+- **Fun Feature-** Use `lola hack <computer_name>` to perform a fake hack on any target pc >_<
+
+- `lola info` gives you a brief description of Lola
+
 ## Developer Tools
 
 - [Python 3.8.5](https://www.python.org/ftp/python/3.8.5/Python-3.8.5.tar.xz) 
@@ -216,14 +231,14 @@ Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
 
 ## Release Notes
 
-- **Current Release- 0.2.3**
+- **Current Release- 0.2.4 (Major Update)**
 
 ### What's new?
 
-- Added Wider Support
-- Various Fixed Scripts
-- App list updated in Alphabetical order for ease of read
-- Fixed Insallation Script
+- Added a few fun features
+- Added Search Feature
+- Faster Performance
+- Added a feature to know lola well
 
 #### Developers
 - [Arghya Sarkar](https://github.com/arghyagod-coder)

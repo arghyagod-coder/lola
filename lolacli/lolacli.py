@@ -88,7 +88,6 @@ telegram ------------- Telegram Client for Linux
 terminator ----------- Terminal Manager Terminator
 thonny --------------- Thonny Python Beginner's IDE
 thunderbird ---------- Thunderbird Mail Client from Moz://a
-tuxpaint ------------- TUX Paint client
 v-lang --------------- V Language and Compiler
 vim ------------------ Professional Terminal Text Editor
 virtualbox ----------- Make and Manage Virtual Machines with Vbox
@@ -203,14 +202,16 @@ def hack(pc):
 
 @main.command('update', help='Update lolacli to the latest version')
 def update():
-    os.system('pip3 uninstall -y lolacli; pip3 install lolacli')
+    os.system(f'pip3 install lolacli -U')
 
 @main.command('search', help='Check Availability of an app in lola')
 @click.argument('app', nargs=1)
 def search(app):
-    pass
-    
-
+    res= requests.get(f'https://raw.githubusercontent.com/arghyagod-coder/lola/master/scripts/{app}.sh')
+    if res.status_code==404:
+        print('This App is not available through lola yet :(')
+    else:
+        print('App Available!')
 
 if __name__ == "__main__":
     main()
