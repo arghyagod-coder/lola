@@ -1,3 +1,3 @@
-add-apt-repository ppa:kelleyk/emacs
-apt-get update
-apt install -y emacs26
+sudo add-apt-repository ppa:kelleyk/emacs
+sudo apt-get update
+sudo apt install -y emacs26
